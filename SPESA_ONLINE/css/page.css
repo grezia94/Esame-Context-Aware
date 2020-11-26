@@ -1,0 +1,196 @@
+/*Stile body*/
+body {
+  font-family: Times;
+  background: white;
+  text-align: justify;
+  width: 1000px;
+ font-size: 14px;
+ }
+
+/* Header*/
+.header {
+  padding: 200px;
+  width: 1300px;
+  top: 9px;
+  background-image: url(images/logo2.jpg);
+  background-repeat: no-repeat;
+  border-image-width: 1000px;
+  margin-right: auto;
+  margin-left: 300px;
+  
+}
+
+.allinea { 
+  float:left;
+  margin-left:160px;
+  padding-top: 100px; 
+ }
+
+ /* Stile barra piè di pagina*/
+
+#footer_bar {
+    width: 1340px;
+    bottom: 0;
+    overflow: hidden;
+}
+#bar_container {
+background: #0099CC;
+margin: 0 auto;
+width: 1000px;
+height: 40px;
+overflow: hidden;
+}
+#bar_container ul {
+list-style: none;
+}
+#bar_container ul li {
+float: left;
+width: 0px;
+text-align: center;
+}
+#bar_container ul li a {
+color: black;
+display: block;
+font-weight: bold;
+padding: 2px 0;
+text-decoration: none;
+width: 200px;
+}
+#bar_container ul li a:hover {
+background-color: #eeeeee;
+} 
+
+
+
+
+/* areacommerciante.php*/
+
+#log{
+
+border:2px solid #0080ff;
+width:550px;
+height:200px;
+font-family:lucida console;
+text-align:center;
+margin-left:280px;
+
+
+}
+
+#forml{
+text-align:center;
+}
+#txtl{
+text-align:center;
+border:1px solid #000000;
+margin-top:2px;
+margin-left:140px;
+}
+#txt2{
+  text-align:center;
+  border:1px solid #000000;
+  margin-top:2px;
+  margin-left:10px;
+  }
+
+#buttonl{
+margin-top:15px;
+padding:3px;
+border:1px solid #0080ff;
+background:#ccc;
+width:150px;
+color:#000000;
+}
+#buttonl:hover{
+margin-top:5px;
+padding:3px;
+border:1px solid #0080ff;
+background:#ededed;
+width:100px;
+color:#444444;
+}
+#footer{
+bottom:1px;
+z-index:50%;
+position:fixed;
+width:100%;
+}
+
+
+/* areacommercianteprivata.php*/
+#topbar{
+width:100%;
+border-bottom:1px solid #0080ff;
+background:#71b8ff;
+padding-right:16px;
+padding-top:5px;
+padding-bottom:5px;
+margin-right:-20px;
+margin-left:-8px;
+margin-top:-8px;
+}
+#logout{
+margin-left:20px;
+border:1px solid #0080ff;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:20px;
+padding-right:20px;
+background:#ccc;
+color:#000000;
+text-decoration:none;
+
+}
+#logout:hover{
+margin-left:20px;
+border:1px solid #0080ff;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:20px;
+padding-right:20px;
+background:#ededed;
+color:#444444;
+text-decoration:none;
+
+}
+
+/* contatto.php*/
+#pos{
+text-align:300px;
+padding-top: 100px;
+padding-bottom: 200px;
+margin-left:250px;
+}
+#formmail {
+  font-family: Arial, Helvetica, sans-serif;
+}
+label, input[type=text], textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+}
+input[type=text], textarea {
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0000FF;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+

@@ -1,0 +1,139 @@
+
+  /* Stile body */
+body {
+  font-family: Times;
+  background: white;
+  text-align: justify;
+  width: 100x;
+ font-size: 14px;
+ }
+
+/* Header*/
+.header {
+  padding: 200px;
+  width: 1300px;
+  top: 9px;
+  background-image: url(images/inizio.jpg);
+  background-repeat: no-repeat;
+  border-image-width: 1000px;
+  margin-right: auto;
+  margin-left: 300px;
+}
+
+
+
+/*Stile corpo centrale*/
+#zona1{
+  padding-top: 100px;
+  padding-left: 250px;
+  width: 750px;
+  float: center;
+
+}
+
+/*Stile modulo contatto*/
+p.groove{
+   border-style: hidden;
+  width: 180px;
+  border: 2px solid  #bdbdbd;
+  height: 150px;
+}
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+}
+label, input[type=text], textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+input[type=text], textarea {
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #C0C0C0;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #eeeeee ; 
+}
+
+/*Stile corpo centrale*/
+#zona2{
+  padding-top: 100px;
+  padding-left: 110px;
+  width: 750px;
+  float: left;
+
+}
+ /* #centro{
+  margin-left:2000px;
+  padding-top: 50px;
+  margin-top:400px;
+  }  */
+
+
+/*Stile link utili*/
+#zona3{
+padding-top: 50px;
+padding-right: 300px;
+width: 100px;
+
+ float: right;
+}
+
+.allinea { 
+ float:left;
+ margin-left:160px;
+ padding-top: 100px; 
+}
+
+
+
+
+ /* Stile barra piè di pagina*/
+#footer_bar {
+    width: 1340px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+
+#bar_container {
+background: #0099CC;
+margin: auto;
+width: 1000px;
+height: 40px;
+overflow: hidden;
+}
+#bar_container ul {
+list-style: none;
+}
+#bar_container ul li {
+float: left;
+width: 300px;
+text-align: center;
+}
+#bar_container ul li a {
+color: black;
+display: block;
+font-weight: bold;
+padding: 2px 0;
+text-decoration: none;
+width: 200px;
+}
+#bar_container ul li a:hover {
+background-color: #eeeeee;
+} 
+
