@@ -1,6 +1,6 @@
 # Esame-Context-Aware
 Progettazione strutturale di un prototipo di sito Web come strumento di ausilio per ordinare e ricevere direttamente a casa generi di prima necessità.  
-Il sito si suppone  messo  a disposizione da un piccolo paesino abruzzese  in provincia di Chieti, Torricella Peligna. 
+Il sito si suppone  messo  a disposizione di un piccolo paesino abruzzese  in provincia di Chieti, Torricella Peligna. 
 
 Linee guida
 - Scarica la cartella "SPESA_ONLINE"
